@@ -1,0 +1,14 @@
+{
+  "name": "prvt-os-mcp",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev":"tsx src/server.ts","build":"tsc","start":"node dist/server.js"},
+  "dependencies": {
+    "@modelcontextprotocol/sdk":"1.30.0",
+    "better-sqlite3":"latest",
+    "express":"^5.1.0",
+    "zod":"^4.0.0"
+  },
+  "devDependencies": {"@types/better-sqlite3":"latest","@types/express":"latest","@types/node":"latest","tsx":"latest","typescript":"^5.9.0"}
+}
